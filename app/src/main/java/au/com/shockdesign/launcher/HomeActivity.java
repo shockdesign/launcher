@@ -10,5 +10,6 @@ public class HomeActivity extends Activity {
     super.onCreate(savedInstanceState);
     getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
     setContentView(R.layout.activity_home);
+    // view.setSystemUiVisibility(8); // Hax: should remove navigation bar at bottom
   }
 }
