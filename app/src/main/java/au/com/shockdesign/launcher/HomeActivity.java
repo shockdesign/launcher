@@ -18,8 +18,8 @@ public class HomeActivity extends Activity {
     findViewById(R.id.relative_layout_activity_home).setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN);
     AssetManager am = getApplicationContext().getAssets();
 
-    Typeface typeface = Typeface.createFromAsset(am,
-        String.format(Locale.US, "fonts/%s", "Solari.ttf"));
-    ((CustomDigitalClock) findViewById(R.id.relative_layout_activity_home_digital_clock)).setTypeface(typeface);
+//    Typeface typeface = Typeface.createFromAsset(am,
+//        String.format(Locale.US, "fonts/%s", "Solari.ttf"));
+//    ((CustomDigitalClock) findViewById(R.id.relative_layout_activity_home_digital_clock)).setTypeface(typeface);
   }
 }
